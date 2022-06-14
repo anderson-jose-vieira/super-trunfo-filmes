@@ -1,0 +1,42 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title> Super Trunfo </title>
+    <script src="./script.js" defer></script>
+    <link rel="stylesheet" href="./style.css">
+</head>
+
+<body>
+    <div class="container">
+        <img src="./img/logo_supertrunfo.png" class="page-logo" alt="">
+        <!-- <h1 class="page-title">Super Trunfo</h1> -->
+        <br>
+        <button onclick="sortearCarta()" id="btnSortear" style="background-color: red; color: aliceblue;">Sortear Cartas</button>
+        <button onclick="reiniciar()" id="reload">Reiniciar Jogo</button>
+        <form id="form">
+            <h2>Escolha o seu atributo</h2>
+            <h3>VOCÊ vs MÁQUINA</h3>
+            <div class="wrapper">
+                <div>
+                    <div id="carta-jogador">
+                        <img src="./img/card-super-trunfo.png"
+                            style=" width: inherit; height: inherit; position: absolute;">
+                        <h3></h3>
+                    </div>
+                </div>
+                <div>
+                    <div id="carta-maquina" class="carta"><img
+                            src="./img/card-super-trunfo.png"
+                            style=" width: inherit; height: inherit; position: absolute;"></div>
+                </div>
+            </div>
+            <button class="button-jogar" type="button" id="btnJogar" onclick="jogar()" disabled="false">Jogar</button>
+            <div id="resultado"></div>
+        </form>
+        <h4>Como jogar: Clique em "Sortear Cartas" será sorteado uma carta para você e outra para a máquina. Depois, escolha um atributo e clique em "Jogar". Será apresentado o resultado e qual foi a carta da máquina.</h4>
+    </div>
+</body>
+
+</html>
