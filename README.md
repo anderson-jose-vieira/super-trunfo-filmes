@@ -2,7 +2,7 @@
 Projeto de um jogo Super Trunfo de Filmes, com as notas obtidas em alguns sites.
 As notas são reais e foram obtidas no site do imdb.com e no rottentomatoes.com, porém, as notas podem mudar com o decorrer dos dias, pois as pessoas podem votar nos filmes.
 Foram criadas 10 cartas, mas é possível criar quantas cartas quiser.
-Ao clicar no botão "Sotear Cartas" serão sorteadas 2 cartas, uma para você e outra para a máquina, esta ficará oculta, até o resultado.
+Ao clicar no botão "Sortear Cartas" serão sorteadas 2 cartas, uma para você e outra para a máquina, esta ficará oculta, até o resultado.
 Com a carta sorteada, o jogador deve selecionar um atributo e depois clicar no botão "Jogar".
 Será comparado o atributo escolhido com a carta da máquina, aquele que tiver o maior valor, é o ganhador.
 Após sair o resultado, é mostrada qual foi a carta da máquina.
