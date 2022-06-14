@@ -5,7 +5,7 @@ Foram criadas 10 cartas, mas é possível criar quantas cartas quiser.
 Ao clicar no botão "Sortear Cartas" serão sorteadas 2 cartas, uma para você e outra para a máquina, esta ficará oculta, até o resultado.
 Com a carta sorteada, o jogador deve selecionar um atributo e depois clicar no botão "Jogar".
 Será comparado o atributo escolhido com a carta da máquina, aquele que tiver o maior valor, é o ganhador.
-Após sair o resultado, é mostrada qual foi a carta da máquina.
+Após sair o resultado, é mostrado qual foi a carta da máquina.
 
 
 ![tela](https://user-images.githubusercontent.com/88552839/173660604-04b64520-d28d-4be9-8b0a-770633a7bfdb.png)
